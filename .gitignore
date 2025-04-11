@@ -1,0 +1,64 @@
+# ========================
+# Python-specific
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# ========================
+# Environment & Dependencies
+# ========================
+.env
+.venv/
+venv/
+env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ========================
+# Flask Specific
+# ========================
+instance/
+*.log
+*.db
+*.sqlite3
+
+# ========================
+# MySQL dump files (optional)
+# ========================
+*.sql
+
+# ========================
+# IDEs and Editors
+# ========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ========================
+# Jupyter Notebook Checkpoints
+# ========================
+.ipynb_checkpoints
+
+# ========================
+# Byte-compiled / cache / temp
+# ========================
+*.bak
+*.tmp
+*.swp
